@@ -12,6 +12,10 @@ body {
         font-family: 'Georgia', serif
     }
 
+    p{
+        text-align: center;
+    }
+
 
   /* Input Box Styling */
   input[type="date"] {
