@@ -1,0 +1,112 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+  }
+    h2{
+        font-size: 72px;
+        font-variant: small-caps;
+        font-family: 'Georgia', serif
+    }
+
+
+  /* Input Box Styling */
+  input[type="date"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #45a049;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px 25px;
+    font-variant: small-caps;
+  letter-spacing: 1px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result Styling */
+  #result {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 50%;
+    min-width: 300px;
+    min-height: 500px;
+  }
+  
+  /* Generation Title */
+  h3 {
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  /* Characteristics List Styling */
+  ul {
+    text-align: left;
+    padding-left: 40px;
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  li {
+    color: #555;
+  }
+  
+  /* Responsive Design */
+
+  @media (max-width: 1150px){
+    h2{
+        font-size: 42px;
+        font-variant: small-caps;
+        font-family: 'Georgia', serif
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      padding: 20px;
+    }
+    h2{
+        font-size: 28px;
+        font-variant: small-caps;
+        font-family: 'Georgia', serif
+    }
+  
+    #result {
+      width: 90%;
+    }
+  
+    input[type="date"] {
+      width: 80%;
+    }
+  }
+  
