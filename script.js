@@ -28,10 +28,7 @@ function checkGeneration() {
   var traits = "";
   var funnyLine = "";
 
-  if (
-    birthDate >= new Date("2013-01-01") &&
-    birthDate <= new Date("2024-12-31")
-  ) {
+  if (birthDate >= new Date("2013-01-01")) {
     generation = "Generation Alpha (Gen Alpha)";
     traits = `
         <ul class="generation-traits">
